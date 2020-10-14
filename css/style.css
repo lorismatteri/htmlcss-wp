@@ -106,7 +106,7 @@ main::after {
 
 .col_left, .col_right {
   width: 20%;
-  background: white;
+  /* background: white; */
 }
 
 .rounded_box {
@@ -174,6 +174,19 @@ ul#list_left li a:hover {
   text-shadow: 2px 2px lightgrey;
   margin-bottom: 30px;
 }
+
+/* SEZIONE DESTRA */
+.widget {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.col_right h2 {
+  font-weight: 500;
+  color: #504741;
+  margin-bottom: 30px;
+}
+
 /* SEZIONE FOOTER */
 footer {
   height: 200px;

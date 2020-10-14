@@ -90,7 +90,7 @@ nav {
 }
 
 .menu li:hover {
-  background: lightgrey;
+  background: rgba(211, 211, 211, 0.7);
 }
 
 .menu li a:hover {

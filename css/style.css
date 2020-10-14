@@ -189,6 +189,30 @@ ul#list_left li a:hover {
 
 /* SEZIONE FOOTER */
 footer {
-  height: 200px;
-  background: red;
+  text-align: center;
+}
+
+div.credits p {
+  font-style: italic;
+  font-weight: normal;
+}
+
+#heart {
+  color: red;
+}
+
+.social {
+  display: inline-block;
+  width: 33%;
+  position: relative;
+  height: 100px;
+}
+
+.social_logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: lightgrey;
 }

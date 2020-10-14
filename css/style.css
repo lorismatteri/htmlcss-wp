@@ -115,6 +115,11 @@ main::after {
   padding: 5px;
 }
 
+p {
+  line-height: 2em;
+  font-weight: 500;
+}
+
 /* SEZIONE SINISTRA */
 .col_header::after {
   content: "";
@@ -159,9 +164,16 @@ ul#list_left li a:hover {
 .col_center {
   width: 50%;
   margin: 0 5%;
-  background: pink;
+  padding: 20px;
 }
 
+.col_center h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #504741;
+  text-shadow: 2px 2px lightgrey;
+  margin-bottom: 30px;
+}
 /* SEZIONE FOOTER */
 footer {
   height: 200px;
